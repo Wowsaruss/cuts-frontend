@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  min-width: 320px;
+}
+
+html::-webkit-scrollbar {
+  /* Safari and Chrome */
+  display: none;
+}
+
+html {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+a {
+  text-decoration: none !important;
+}
