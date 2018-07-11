@@ -8,7 +8,6 @@ export const MainWrapper = styled.div`
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background-color: gray;
 `;
 
 export const HelloWorld = styled.p`
@@ -27,7 +26,7 @@ class Landing extends Component {
   render() {
     return (
       <MainWrapper>
-        <HelloWorld>HELLO WORLD!</HelloWorld>
+        <HelloWorld>CUTS!</HelloWorld>
       </MainWrapper>
     );
   }
